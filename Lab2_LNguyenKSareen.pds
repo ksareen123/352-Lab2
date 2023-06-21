@@ -1,0 +1,71 @@
+
+
+
+
+[LabelUserTest]
+Function=UserTest
+"",,,"",,,,"","",""
+
+
+[Datasheet Preferences]
+Column Formatting=CCCCCCCCCCC
+Column Widths=150,60,200,132,162,200,200,200,200,200,200,
+Fixed Columns=2
+Fixed Rows=3
+Vert Split=300
+Horz Split=300
+Show All Test Labels=1
+[Documentation Block]
+DATA SHEET=Lab2_LNguyenKSareen.pds
+PRODUCT=Lab2_LNguyenKSareen
+REVISION=1.00
+ORIG. DATE=01/27/2023
+User Flag 1=
+User Flag 2=
+User Flag 3=
+User Flag 4=
+Comment=
+[Binning Block]
+1,,"P",""
+2,,"F",""
+3,,"A",""
+[Datasheet Variable Map]
+"integer","TestNmbr","Test Number"
+"integer","SubTestNmbr","Subtest Number"
+"character","DLogDesc","Datalog Description"
+"double","LoLim","Low Limit"
+"double","HiLim","High Limit"
+"double","DFormat","Data Format"
+"character","Units","Units"
+"character","LoFBin","Low Fail Bin"
+"character","HiFBin","High Fail Bin"
+[ICC]
+Function=ICC
+"",100,1,"B2A High (ICC Start)",,70,8.3,"mA","2","3"
+"",100,2,"B2A Low",,90,8.3,"mA","2","3"
+"",100,3,"A2B High",,70,8.3,"mA","2","3"
+"",100,4,"A2B Low",,90,8.3,"mA","2","3"
+"",100,5,"Isolated (ICC Stop)",,95,8.3,"mA","2","3"
+[CONT]
+Function=CONT
+"",200,1,"nOE (Continuity START)",-0.8,-0.2,9.3,"V","2","3"
+"",200,2,"DIR",-0.8,-0.2,9.3,"V","2","3"
+"",200,3,"A1",-0.8,-0.2,9.3,"V","2","3"
+"",200,4,"A2",-0.8,-0.2,9.3,"V","2","3"
+"",200,5,"A3",-0.8,-0.2,9.3,"V","2","3"
+"",200,6,"A4",-0.8,-0.2,9.3,"V","2","3"
+"",200,7,"A5",-0.8,-0.2,9.3,"V","2","3"
+"",200,8,"A6",-0.8,-0.2,9.3,"V","2","3"
+"",200,9,"A7",-0.8,-0.2,9.3,"V","2","3"
+"",200,10,"A8",-0.8,-0.2,9.3,"V","2","3"
+"",200,11,"B1",-0.8,-0.2,9.3,"V","2","3"
+"",200,12,"B2",-0.8,-0.2,9.3,"V","2","3"
+"",200,13,"B3",-0.8,-0.2,9.3,"V","2","3"
+"",200,14,"B4",-0.8,-0.2,9.3,"V","2","3"
+"",200,15,"B5",-0.8,-0.2,9.3,"V","2","3"
+"",200,16,"B6",-0.8,-0.2,9.3,"V","2","3"
+"",200,17,"B7",-0.8,-0.2,9.3,"V","2","3"
+"",200,18,"B8 (Continuity STOP)",-0.8,-0.2,9.3,"V","2","3"
+[Test Order]
+ICC=1,""
+CONT=1,""
